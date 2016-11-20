@@ -1,0 +1,14 @@
+h1,h2{color: maroon;}
+h1{font-size:50px;}
+h2{font-size:30px;}
+li {
+  float: left;
+  list-style-type: none;
+  width:80px;
+  margin-bottom:0.5em;
+  border-left: 1px solid #aaa;
+  text-align: center;
+}
+h2 {
+ clear: left;
+}
