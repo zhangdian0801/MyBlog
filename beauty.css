@@ -1,15 +1,58 @@
-h1,h2{color: maroon;}
-h1{font-size:50px;}
-h2{font-size:30px;}
+body{
+	font-size:90%;
+	font-family: verdana,helvetica,arial,sans-serif;
+	line-height:1.5em;
+}
+h1,h2{color: #008B8B;}
+h1{
+	font-size:50px;
+	text-align:center;
+	font-family:'minijianyingbik72cbd23ee17348';
+	margin-bottom:60px;
+	color:#808080;
+}
+h2{
+	font-size:200%;
+}
 li {
-  float: left;
+  /*float: left;*/
   list-style-type: none;
   width:80px;
-  margin-bottom:0.5em;
-  border-left: 1px solid #aaa;
+  margin-bottom:1em;
+  border: 1px dotted #20B2AA;
   text-align: center;
+  line-height:2em;
+}
+#nav{
+	float:left;
+	width:200px;
+	/*border: 1px red solid;*/
+}
+#article{
+	/*border:1px red solid;*/
+	margin-left: 200px;
 }
 h2 {
- clear: left;
+ /*clear: left;*/
 }
-h1{font-family:'minijianyingbik72cbd23ee17348';}
+#wrapper{
+	margin:5px auto;
+	width:960px;/*内容宽度为960px 设置为70%文字也随页面移动*/
+}
+a:link{
+	color:green;
+	text-decoration:none;
+	border-bottom:1px dotted #b76666;
+}
+a:visited{
+	color:#20B2AA;
+	text-decoration:none;
+}
+a:hover{
+	background:	#008080;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+h3{
+	text-align:center;
+}
