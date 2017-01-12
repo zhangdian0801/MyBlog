@@ -1,0 +1,36 @@
+body{
+	line-height:2.5em;
+}
+h3{
+	color:#00c47d;
+}
+#pic{
+	/*width:224px;
+	height:370px;*/
+	display: table-cell;
+	float:left;
+}
+#whole{
+	display:table;
+}
+#right{
+	color:white;
+	width:560px;
+	background-color: #65817f;
+	displa: table-cell;
+	margin-left:200px;
+	height:339px;
+	box-sizing:border-box;
+	padding:10px 35px;
+}
+p#right{
+	color:black;
+}
+#ma{
+	position:absolute;
+	top:165px;
+	left:600px;
+}
+#us{
+	padding-left:370px;
+}

@@ -1,0 +1,118 @@
+body{
+	font-size:90%;
+	font-family: verdana,helvetica,arial,sans-serif;
+	line-height:1.5em;
+	background: pin;
+}
+h1,h2{color: #008B8B;}
+h1{
+	font-size:50px;
+	text-align:center;
+	font-family:'minijianyingbik72cbd23ee17348';
+	margin-bottom:60px;
+	color:#808080;
+}
+h2{
+	font-size:200%;
+}
+li {
+  /*float: left;*/
+  list-style-type: none;/*none 是没有任何标记 disc
+  是默认标记 circle 是小圆圈标记 square 是方形标记*/
+  /*list-style-image: url(路)*/
+  width:80px;
+  margin-bottom:1em;
+  border: 1px dotted #20B2AA;
+  text-align: center;
+  line-height:2em;
+}
+#nav{
+	/*float:left;
+	width:200px;*/
+	/*border: 1px red solid;*/
+	border: 1px soid red;
+	/*background: red;*/
+	display: table-cell;
+}
+#friends{
+	/*float:right;
+	width:200px;*/
+	margin-left:100px;
+	border: 1px sold red;
+	background: yelow;
+	display: table-cell;
+}
+#friends h3{
+	text-align:center;
+}
+#article{
+	/*border:1px red solid;*/
+	margin-left: 200px;
+	/*这个外边距相对的是 wrapper 大盒子，所以空出了200外边距
+	然后这 200 正好又给了 nav 设置的宽度 200 不要给 nav 设置 margin
+	这样才能保证它们严丝合缝在一块，也就是宽度相等*/
+	margin-right:310px;/*此时已经不起作用了*/
+	border: 1px sold red;
+	width:660px;
+	background: blu;
+	box-sizing:border-box;
+	padding-left:10px;
+	padding-right:10px;
+	display: table-cell;
+
+}
+h2 {
+ /*clear: left;*/
+}
+#wrapper{
+	margin:5px auto;
+	width:1060px;/*内容宽度为960px 设置为70%文字也随页面移动*/
+}
+a:link{
+	color:green;
+	text-decoration:none;
+	border-bottom:1px dotted #b76666;
+}
+a:visited{
+	color:#20B2AA;
+	text-decoration:none;
+}
+a:hover{
+	background:	#008080;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+table{
+	margin-left:310px;
+	margin-top: 20px;
+	border:thin solid black;/*为整个表格增加一个黑色的细边框*/
+	caption-side:bottom;/*将标题移到下方*/
+	border-spacing: 0px;/*不能对单个边框设置外边距，只能以表格的形式为它们设置一个共同的间距，即为0*/
+}	
+td,th{
+	border:thin dotted gray;
+	padding:5px;
+	}
+th{
+	background-color:grey;
+}
+tr:nth-child(2n){
+	background-color:lightgrey;
+}
+caption{
+	padding-top:10px;
+}
+#html td{
+	text-align: center;
+}
+/*.cellcolor{
+	background-color: #fcba7a;
+} 这里主要使用类对单独的某一行设置颜色，但显然并不会涉及到其它行，所以并没有什么用处*/
+table table th{
+	background-color: white;
+}
+
+
+
+
+
